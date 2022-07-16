@@ -1,13 +1,11 @@
-import {Link, Outlet} from "react-router-dom";
+import {Outlet} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import './App.css';
 
 export default function App() {
     return (
         <>
-            <h1>Just hi</h1>
-            <nav>
-                <Link to="/invoices">Invoices</Link>
-                <Link to="/expenses">Expenses</Link>
-            </nav>
+            <Navbar/>
             <Outlet/>
         </>
     );

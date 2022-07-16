@@ -1,0 +1,93 @@
+@import "fonts/fonts.css";
+
+/* Colors */
+:root {
+    --main-blue-color: #00b2ff;
+    --main-blue-color-hover: #008bff;
+}
+
+/* Unselectable text */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+html {
+    font-family: Lato-Bold;
+    height: 100%;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/public/background-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    font-family: Lato-Black;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    right: 5vh;
+}
+
+.nav-header {
+    padding: 25px 25px;
+}
+
+.nav-link {
+    color: white;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--main-blue-color);
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.nav-link-right {
+    float: right;
+}
+
+.page-wrapper-centered {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+}
+
+.feature-item {
+    width: 15vw;
+    text-align: center;
+    margin: 0px 5vh;
+}
+
+.button {
+    background-color: var(--main-blue-color);
+    padding: 15px 50px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.button:hover {
+    background-color: var(--main-blue-color-hover);
+}
+
