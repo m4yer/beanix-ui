@@ -80,14 +80,18 @@ nav {
     margin: 0px 5vh;
 }
 
-.button {
+.bg-main-blue {
     background-color: var(--main-blue-color);
+}
+
+.button {
     padding: 15px 50px;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 16px;
 }
 
 .button:hover {
     background-color: var(--main-blue-color-hover);
 }
-

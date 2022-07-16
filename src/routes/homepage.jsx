@@ -6,7 +6,9 @@ export default function Homepage() {
         <div className="page-wrapper-centered">
             <h1 style={{margin: 0, fontSize: '80px'}}>Beanix</h1>
             <h2 style={{margin: 0, fontFamily: 'Lato-Thin'}}>Generate your beat just in one click</h2>
-            <Button text={"Try out"}/>
+            <div style={{display: "flex", flexDirection: "row"}}>
+                <Button text={"Try for free"}/><Button text={"Watch demo"}/>
+            </div>
             <div className="feature-list">
                 <Feature title={"Cheap"} explanation={"Much cheaper than purchasing on beat marketplaces."}/>
                 <Feature title={"Exclusive rights"} explanation={"You are not restricted on how exactly you can use your beat."}/>
