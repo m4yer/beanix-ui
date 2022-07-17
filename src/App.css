@@ -2,8 +2,8 @@
 
 /* Colors */
 :root {
-    --main-blue-color: #00b2ff;
-    --main-blue-color-hover: #008bff;
+    --main-blue-color: #9361C0;
+    --main-blue-color-hover: #543789;
 }
 
 /* Unselectable text */
@@ -90,8 +90,23 @@ nav {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button:hover {
     background-color: var(--main-blue-color-hover);
+}
+
+select {
+    font-family: Lato-Regular;
+    background-color: #151515;
+    color: white;
+    font-size: 20px;
+    border: 2px solid var(--main-blue-color-hover);
+    padding: 1vh 4vw;
+    margin-top: 2vh;
+    margin-right: 0.5vw;
+    border-radius: 10px;
 }
